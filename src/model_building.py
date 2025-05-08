@@ -27,7 +27,7 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
-
+'''
 def load_params(params_path: str) -> dict:
     """Load parameters from a YAML file."""
     try:
@@ -44,7 +44,7 @@ def load_params(params_path: str) -> dict:
     except Exception as e:
         logger.error('Unexpected error: %s', e)
         raise
-
+'''
 
 def load_data(file_path: str) -> pd.DataFrame:
     """
